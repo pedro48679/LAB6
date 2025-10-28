@@ -101,8 +101,8 @@ else{
       ]
   );
 
-  $_SESSION['message_type'] = 1;
   header("Location: ./message.php");
   exit;
 }
 ?>
+
