@@ -177,9 +177,11 @@ else{
           'samesite' => 'Strict'
       ]
   );
-
+  
+  $_SESSION['message_type'] = 1;
   header("Location: ./templates/register_success.html");
   exit;
 }
+
 
 ?>
